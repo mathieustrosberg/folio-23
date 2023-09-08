@@ -103,7 +103,7 @@ const ProjectDetail = () => {
           </Link>
         </div>
         <div className="col-top">
-          <img src={project.image} alt="Projet" />
+          <img className="project-image" src={project.image} alt="Projet" />
           <div className="container-more">
             <h1>{project.name}</h1>
             <div className="main-details">

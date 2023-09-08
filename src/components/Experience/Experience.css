@@ -1,0 +1,15 @@
+.divider {
+  background-color: var(--black-grey);
+  height: 1px;
+  opacity: 0.1;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.name-exp {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Figtree", sans-serif;
+}

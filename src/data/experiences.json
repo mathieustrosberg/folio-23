@@ -1,0 +1,30 @@
+{
+  "title_section": "Expériences",
+  "experiences": [
+    {
+      "title": "Graphiste Freelance",
+      "date": "2021 - Présent",
+      "description": "Je crée des expériences numériques centrées sur l'utilisateur grâce à des recherches utilisateur, des maquettes et une collaboration avec des équipes interfonctionnelles. J'utilise la pensée conceptuelle pour fournir des interfaces intuitives et captivantes répondant aux objectifs commerciaux et aux besoins des utilisateurs."
+    },
+    {
+      "title": "Échantillonneur @ SGS",
+      "date": "2019 - 2021",
+      "description": "Respect strict des procédures de travail et des règles de sécurité. Réalisation des opérations liées à l'extraction, au traitement et à la mesure des matériaux, en utilisant le matériel approprié et en garantissant l'intégrité des équipements."
+    },
+    {
+      "title": "Opérateur @ Dillinger France",
+      "date": "2015 - 2019",
+      "description": "Opérateur parc à brame (Cabine fichiste, enfournement) Chauffeur four poussant (Rondes fours et réseaux) Opérateur retourneur et empileurs."
+    },
+    {
+      "title": "Rippeur @ Communauté urbaine de Dunkerque",
+      "date": "2016 - 2018",
+      "description": "Contribution à la gestion responsable des déchets."
+    },
+    {
+      "title": "Équipier polyvalent @ Quick Dunkerque",
+      "date": "2013",
+      "description": "Contrat 20h par semaine en parallèle de mes études."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title_section": "Diplômes et Formations",
+  "experiences": [
+    {
+      "title": "Formation Développeur web",
+      "date": "2023",
+      "description": "The hacking project - 1200 heures\nHTML, CSS, JavaScript, Bootstrap, Ruby on Rails, React, SQL, PostgreSQL, Github, Git"
+    },
+    {
+      "title": "Formation Développement de site Web et d'application Mobile",
+      "date": "2021",
+      "description": "Le Réacteur - 400 heures\nHTML, CSS, JavaScript, React, React native, Node.js, MongoDB, Github, Git"
+    },
+    {
+      "title": "Certificat de Qualification Paritaire de la Métallurgie Pilote de Systèmes de Production Automatisée",
+      "date": "2017",
+      "description": "Dillinger France"
+    },
+    {
+      "title": "Baccalauréat STI2D Systèmes information et numérique",
+      "date": "2013",
+      "description": "Lycée de l'Europe à Dunkerque"
+    }
+  ]
+}

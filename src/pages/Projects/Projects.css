@@ -1,4 +1,4 @@
-@media (min-width: 810px) {
+@media (min-width: 414px) {
   .container-projects {
     display: grid;
     gap: 24px;
@@ -10,6 +10,12 @@
 
   .card-projects {
     margin-bottom: 0px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-projects:hover {
+    transform: scale(1) rotate(-1deg) translateZ(0px);
   }
 }
 
@@ -68,10 +74,6 @@
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.4px;
-}
-
-.card-projects:hover {
-  transform: scale(1) rotate(-1deg) translateZ(0px);
 }
 
 @keyframes fadeAnimation {

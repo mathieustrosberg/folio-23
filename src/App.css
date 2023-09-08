@@ -25,7 +25,6 @@ body {
 
 h1 {
   font-size: clamp(20px, calc(1.25rem + ((1vw - 7.68px) * 2.7778)), 32px);
-  min-height: 0vw;
 }
 
 h2 {

@@ -5,12 +5,16 @@ import ScrollToTop from "./ScrollToTop";
 
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
+import Projects from "./pages/Projects/Projects";
+import ProjectDetail from "./pages/ProjectsDetail/ProjectsDetails";
 
 import NavBar from "./components/NavBar/NavBar";
 
 import "./App.css";
 import "./pages/Home/Home.css";
 import "./pages/About/About.css";
+import "./pages/Projects/Projects.css";
+import "./pages/ProjectsDetail/ProjectsDetails.css";
 
 import "./components/NavBar/NavBar.css";
 import "./components/Footer/Footer.css";
@@ -29,6 +33,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about-me" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:projectName" element={<ProjectDetail />} />
           </Routes>
         </main>
       </div>

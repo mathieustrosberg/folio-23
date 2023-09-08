@@ -1,42 +1,77 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+:root {
+  --black: #0000001a;
+  --black-grey: #212121;
+  --white: #f8f8f8;
+  --grey: #6e6e6e;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  font-family: "Figtree", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: clamp(20px, calc(1.25rem + ((1vw - 7.68px) * 2.7778)), 32px);
+  min-height: 0vw;
 }
 
-.card {
-  padding: 2em;
+h2 {
+  font-family: "Figtree", sans-serif;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 600;
+  color: var(--black-grey);
+  letter-spacing: -0.2px;
 }
 
-.read-the-docs {
-  color: #888;
+h3 {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  font-weight: 600;
+  color: var(--black-grey);
+}
+
+p {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--grey);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border-radius: 8px;
+}
+
+button {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 12px;
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 14px 20px;
+  position: relative;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid var(--black);
+  background-color: var(--white);
 }

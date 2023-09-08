@@ -1,0 +1,57 @@
+.main-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  bottom: 4%;
+  transform: translateX(-50%);
+  padding: 12px;
+  backdrop-filter: blur(12px);
+  border: 1px solid #ffffff1a;
+  border-radius: 24px;
+  box-shadow: 0px 4px 16px #00000014, 0px 16px 64px #00000014;
+  gap: 18px;
+  z-index: 1;
+  background-color: #f8f8f8d6;
+}
+
+.main-navbar img {
+  height: 24px;
+  width: 24px;
+}
+
+.home-icon,
+.projects-icon,
+.about-icon,
+.mail-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff03;
+  border-radius: 12px;
+  border: 1px solid #0000001a;
+  box-shadow: 0px 1px 4px 0px #0000000a, 0px 2px 8px 0px #00000014;
+}
+
+.home-icon.active,
+.home-icon:hover {
+  background-color: #fac99c;
+}
+
+.projects-icon.active,
+.projects-icon:hover {
+  background-color: #c8adfa;
+}
+
+.about-icon.active,
+.about-icon:hover {
+  background-color: #9ccbf5;
+}
+
+.mail-icon.active,
+.mail-icon:hover {
+  background-color: #b0e3b6;
+}

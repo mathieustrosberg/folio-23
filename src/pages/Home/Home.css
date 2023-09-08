@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  /* background: url("../../images/bg.jpeg"); */
-  background-color: burlywood;
+  height: 100vh;
+  height: -webkit-fill-available;
+  background: url("../../images/bg.jpeg");
+
   background-size: cover;
   background-position: center;
 }

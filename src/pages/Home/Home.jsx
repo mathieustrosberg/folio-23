@@ -11,7 +11,7 @@ const Home = () => {
           <div className="card-line">
             <h1 className="card-heading-left">Bonjour, je suis</h1>
             <div className="card-heading-right">
-              <h1 className="card-heading-name">Mathieuu</h1>
+              <h1 className="card-heading-name">Mathieu</h1>
               <div className="card-heading-image">
                 <img src={emojiPhoto} alt="Portrait Emoji" />
               </div>

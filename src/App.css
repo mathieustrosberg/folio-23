@@ -15,6 +15,10 @@
   --grey: #6e6e6e;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   font-family: "Figtree", sans-serif;
 }
@@ -74,4 +78,11 @@ button {
   border-radius: 8px;
   border: 1px solid var(--black);
   background-color: var(--white);
+}
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* The hack for Safari */
+    min-height: -webkit-fill-available;
+  }
 }

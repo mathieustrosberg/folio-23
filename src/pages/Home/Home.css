@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("../../images/bg.jpeg");
+  /* background: url("../../images/bg.jpeg"); */
+  background-color: gray;
   background-size: cover;
   background-position: center;
 }

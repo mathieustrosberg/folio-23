@@ -1,11 +1,15 @@
+@media (max-width: 768px) {
+  .home-container {
+    height: 100vh;
+    height: -webkit-fill-available;
+  }
+}
 .home-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  height: -webkit-fill-available;
   background: url("../../images/bg.jpeg");
-
   background-size: cover;
   background-position: center;
 }

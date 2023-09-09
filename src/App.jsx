@@ -2,15 +2,14 @@ import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 import ScrollToTop from "./ScrollToTop";
-
+import NavBar from "./components/NavBar/NavBar";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import ProjectDetail from "./pages/ProjectsDetail/ProjectsDetails";
 
-import NavBar from "./components/NavBar/NavBar";
-
 import "./App.css";
+
 import "./pages/Home/Home.css";
 import "./pages/About/About.css";
 import "./pages/Projects/Projects.css";
@@ -25,11 +24,11 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <ScrollToTop />
         <header>
           <NavBar />
         </header>
         <main>
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about-me" element={<About />} />

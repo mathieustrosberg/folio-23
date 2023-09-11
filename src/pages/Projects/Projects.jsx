@@ -3,24 +3,30 @@ import { Link } from "react-router-dom";
 
 import Footer from "../../components/Footer/Footer";
 
-import projectImage1 from "../../images/projects.webp";
-import projectImage2 from "../../images/projects.webp";
+import projectImage1 from "../../images/loon-garden.webp";
+import projectImage2 from "../../images/sagebym.webp";
 import projectImage3 from "../../images/projects.webp";
 import projectImage4 from "../../images/projects.webp";
 
 const projectData = [
   {
-    name: "Loon-garden Restaurant",
-    description: "Description du projet 1",
-    id: "projet-1",
-    details: [{ label: "Ux Design", value: "Research" }],
+    name: "Loon-Garden Restaurant",
+    description:
+      "Création d'identité visuelle et réalisation d'un site pour un restaurant.",
+    id: "loon-garden",
+    details: [
+      {
+        label: "Design identité visuelle",
+        value: "Squarespace design & development",
+      },
+    ],
     image: projectImage1,
   },
   {
-    name: "Projet 2",
-    description: "Description du projet 2",
-    id: "projet-2",
-    details: [{ label: "Graphic Design", value: "Art" }],
+    name: "Sage by M",
+    description: "Création d'une boutique en ligne.",
+    id: "sagebym",
+    details: [{ label: "Squarespace design & development", value: "" }],
     image: projectImage2,
   },
   {
@@ -54,14 +60,18 @@ const Projects = () => {
               <div className="main-details">
                 {project.details.map((detail, index) => (
                   <div key={index}>
-                    <div className="main-details">
-                      <div className="container-details">
-                        <p className="details">{detail.label}</p>
+                    {detail.label && (
+                      <div className="main-details">
+                        <div className="container-details">
+                          <p className="details">{detail.label}</p>
+                        </div>
+                        {detail.value && (
+                          <div className="container-details">
+                            <p className="details">{detail.value}</p>
+                          </div>
+                        )}
                       </div>
-                      <div className="container-details">
-                        <p className="details">{detail.value}</p>
-                      </div>
-                    </div>
+                    )}
                   </div>
                 ))}
               </div>

@@ -2,38 +2,45 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 
-import projectImage1 from "../../images/projects.webp";
-import projectImage2 from "../../images/projects.webp";
+import projectImage1 from "../../images/loon-garden.webp";
+import projectImage2 from "../../images/sagebym.webp";
 
 const ProjectDetail = () => {
   const { projectName } = useParams();
 
   const projectData = [
     {
-      name: "Loon-garden Restaurant",
-      description:
-        "Overview For this project, I designed an app that allows users to explore AI-generated art. My goal was to create an app that would not only showcase the beauty and complexity of AI-generated art but also allow users to interact with it in a meaningful way. To achieve this, I conducted extensive user research, analyzing existing apps and interviewing art enthusiasts and collectors.",
-      id: "projet-1",
-      details: [{ label: "Ux Design", value: "Research" }],
+      name: "Loon-Garden Restaurant",
+      description_1:
+        "Anciennement une franchise les patrons du restaurant sont devenus indépendant, j'ai eu l'opportunité de créer une identité visuelle complète pour celui-ci. Mon rôle englobait la création du logo, la conception des cartes du menu, ainsi que le développement du site internet du restaurant. Le résultat final est une identité visuelle cohérente qui communique efficacement l’essence et le caractère du restaurant sur tous les supports, du logo au site Web.",
+      description_2:
+        "À partir de la plateforme Squarespace, j'ai développé le site web du restaurant. Il présente des images attractives de plats, des informations sur les heures d'ouverture, les réservations, les événements spéciaux, et plus encore. La mise en page du site a été optimisée pour les appareils mobiles, assurant ainsi une accessibilité optimale aux clients potentiels.",
+      id: "loon-garden",
+      details: [{ label: "Squarespace design & developpement", value: "" }],
       image: projectImage1,
     },
     {
-      name: "Projet 2",
-      description: "Description du projet 2",
-      id: "projet-2",
-      details: [{ label: "Graphic Design", value: "Art" }],
+      name: "Sage by M",
+      description_1: "Sage by M est une boutique de vêtements en ligne.",
+      description_2:
+        "Grâce à la plateforme Squarespace, j'ai développé une boutique en ligne. Le site Web propose des vêtements, accessoires, des informations sur les envois et retour, des options de commande, des promotions spéciales et d'une newsletter. La présentation du site Web a été optimisée pour offrir une expérience fluide sur les appareils mobiles, garantissant que les clients potentiels peuvent y accéder facilement.",
+      link: "https://www.sagebym.store/",
+      id: "sagebym",
+      details: [{ label: "Squarespace design & developpement", value: "" }],
       image: projectImage2,
     },
     {
       name: "Projet 3",
-      description: "Description du projet 3",
+      description_1: "Description du projet 3",
+      description_2: "Description du projet 3",
       id: "projet-3",
       details: [{ label: "Graphic Design", value: "Art" }],
       image: projectImage2,
     },
     {
       name: "Projet 4",
-      description: "Description du projet 4",
+      description_1: "Description du projet 4",
+      description_2: "Description du projet 4",
       id: "projet-4",
       details: [{ label: "Graphic Design", value: "Art" }],
       image: projectImage2,
@@ -108,18 +115,28 @@ const ProjectDetail = () => {
             <h1>{project.name}</h1>
             <div className="main-details">
               {project.details.map((detail, index) => (
-                <div key={index} className="main-details">
-                  <div className="container-details">
-                    <p className="details">{detail.label}</p>
-                  </div>
-                  <div className="container-details">
-                    <p className="details">{detail.value}</p>
-                  </div>
+                <div key={index}>
+                  {detail.label && (
+                    <div className="main-details">
+                      <div className="container-details">
+                        <p className="details">{detail.label}</p>
+                      </div>
+                      {detail.value && (
+                        <div className="container-details">
+                          <p className="details">{detail.value}</p>
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
             <h2>Details</h2>
-            <p>{project.description}</p>
+            <p>{project.description_1}</p>
+            <p>{project.description_2}</p>
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              {project.link}
+            </a>
           </div>
         </div>
       </div>

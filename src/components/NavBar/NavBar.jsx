@@ -7,7 +7,7 @@ import about from "../../assets/about.svg";
 import mail from "../../assets/mail.svg";
 
 const NavBar = () => {
-  const location = useLocation(); // Obtenir l'emplacement actuel
+  const location = useLocation();
 
   return (
     <div className="main-navbar">
@@ -20,7 +20,10 @@ const NavBar = () => {
       <Link
         to="/projects"
         className={`projects-icon ${
-          location.pathname === "/projects" ? "active" : ""
+          location.pathname === "/projects" ||
+          location.pathname.startsWith("/projects/")
+            ? "active"
+            : ""
         }`}
       >
         <img src={projects} alt="Projects icon" />

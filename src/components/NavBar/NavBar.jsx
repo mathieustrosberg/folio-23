@@ -37,7 +37,7 @@ const NavBar = () => {
         <img src={about} alt="About icon" />
       </Link>
       <div className={`mail-icon`}>
-        <a href="mailto:your.email@example.com">
+        <a href="mailto:contact@mathieustrosberg.com">
           <img src={mail} alt="Mail icon" />
         </a>
       </div>

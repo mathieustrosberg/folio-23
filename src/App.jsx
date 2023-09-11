@@ -6,14 +6,14 @@ import NavBar from "./components/NavBar/NavBar";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
-import ProjectDetail from "./pages/ProjectsDetail/ProjectsDetails";
+import ProjectDetails from "./pages/ProjectsDetails/ProjectsDetails";
 
 import "./App.css";
 
 import "./pages/Home/Home.css";
 import "./pages/About/About.css";
 import "./pages/Projects/Projects.css";
-import "./pages/ProjectsDetail/ProjectsDetails.css";
+import "./pages/ProjectsDetails/ProjectsDetails.css";
 
 import "./components/NavBar/NavBar.css";
 import "./components/Footer/Footer.css";
@@ -33,7 +33,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about-me" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/projects/:projectName" element={<ProjectDetail />} />
+            <Route path="/projects/:projectName" element={<ProjectDetails />} />
           </Routes>
         </main>
       </div>

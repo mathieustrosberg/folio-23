@@ -51,7 +51,7 @@ const ProjectDetail = () => {
       <div className="container-projects-details">
         <div className="container-button">
           <Link to="/projects">
-            <button>
+            <button className="close-btn">
               <svg
                 className="icon-button"
                 xmlns="http://www.w3.org/2000/svg"

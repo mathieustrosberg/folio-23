@@ -63,11 +63,29 @@ const About = () => {
           <Diplome />
           <Experience />
           <div class="profile-card">
-            <h2>Venez dire bonjour!</h2>
+            <h2>Contact</h2>
             <div className="card-details">
-              <button className="email">Email</button>
-              <button className="linkedin">LinkedIn</button>
-              <button className="cv">Cv resume</button>
+              <a
+                href="mailto:contact@mathieustrosberg.com"
+                target="_blank"
+                className="email-button"
+              >
+                Contactez-moi par Email
+              </a>
+              <a
+                href="https://www.linkedin.com/in/mathieu-strosberg"
+                target="_blank"
+                className="linkedin-button"
+              >
+                Mon profil LinkedIn
+              </a>
+              <a
+                href="src/assets/CV_MATHIEUSTROSBERG.pdf"
+                target="_blank"
+                className="cv-button"
+              >
+                Téléchargez mon CV
+              </a>
             </div>
           </div>
         </div>

@@ -94,17 +94,27 @@
   letter-spacing: 0.4px;
 }
 
-.email:hover {
+.email-button,
+.linkedin-button,
+.cv-button {
+  border: 1px solid #0000001a;
+  border-radius: 8px;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.email-button:hover {
   color: var(--white);
   background-color: #69cc7a;
 }
 
-.linkedin:hover {
+.linkedin-button:hover {
   color: var(--white);
   background-color: #58befe;
 }
 
-.cv:hover {
+.cv-button:hover {
   color: var(--white);
   background-color: #f69851;
 }

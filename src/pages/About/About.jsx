@@ -80,7 +80,7 @@ const About = () => {
                 Mon profil LinkedIn
               </a>
               <a
-                href="src/assets/CV_MATHIEUSTROSBERG.pdf"
+                href="public/MATHIEU_STROSBERG_CV.pdf"
                 target="_blank"
                 className="cv-button"
               >

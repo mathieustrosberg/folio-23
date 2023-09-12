@@ -81,7 +81,7 @@ const About = () => {
               </a>
               <a
                 href="public/MATHIEU_STROSBERG_CV.pdf"
-                target="_blank"
+                download="MATHIEU_STROSBERG_CV.pdf"
                 className="cv-button"
               >
                 Téléchargez mon CV

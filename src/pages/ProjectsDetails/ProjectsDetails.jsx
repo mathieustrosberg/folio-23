@@ -124,17 +124,20 @@ const ProjectDetail = () => {
           </Link>
         </div>
         <div className="col-top">
-          <img className="project-image" src={project.image} alt="Projet" />
+          <img
+            className="project-image"
+            src={project.image}
+            alt="Projet"
+            loading="lazy"
+          />
           <div className="container-more">
             <h1>{project.name}</h1>
             <div className="main-details">
               {project.details.map((detail, index) => (
                 <div key={index}>
                   {detail.label && (
-                    <div className="main-details">
-                      <div className="container-details">
-                        <p className="details">{detail.label}</p>
-                      </div>
+                    <div className="container-details">
+                      <p className="details">{detail.label}</p>
                       {detail.value && (
                         <div className="container-details">
                           <p className="details">{detail.value}</p>
@@ -148,20 +151,28 @@ const ProjectDetail = () => {
             <h2>Details</h2>
             <p>{project.description_1}</p>
             <p>{project.description_2}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              {project.link}
-            </a>
+            {project.link && (
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                {project.link}
+              </a>
+            )}
           </div>
           <div className="section">
             <div className="block-1">
-              {project.image_1 && <img src={project.image_1} alt="Projet" />}
+              {project.image_1 && (
+                <img src={project.image_1} alt="Projet" loading="lazy" />
+              )}
             </div>
             <div className="block-2">
               <div className="image-1">
-                {project.image_2 && <img src={project.image_2} alt="Projet" />}
+                {project.image_2 && (
+                  <img src={project.image_2} alt="Projet" loading="lazy" />
+                )}
               </div>
               <div className="image-2">
-                {project.image_3 && <img src={project.image_3} alt="Projet" />}
+                {project.image_3 && (
+                  <img src={project.image_3} alt="Projet" loading="lazy" />
+                )}
               </div>
             </div>
           </div>

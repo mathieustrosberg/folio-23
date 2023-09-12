@@ -18,6 +18,7 @@ const ProjectDetail = () => {
         "Anciennement une franchise les patrons du restaurant sont devenus indépendant, j'ai eu l'opportunité de créer une identité visuelle complète pour celui-ci. Mon rôle englobait la création du logo, la conception des cartes du menu, ainsi que le développement du site internet du restaurant. Le résultat final est une identité visuelle cohérente qui communique efficacement l’essence et le caractère du restaurant sur tous les supports, du logo au site Web.",
       description_2:
         "À partir de la plateforme Squarespace, j'ai développé le site web du restaurant. Il présente des images attractives de plats, des informations sur les heures d'ouverture, les réservations, les événements spéciaux, et plus encore. La mise en page du site a été optimisée pour les appareils mobiles, assurant ainsi une accessibilité optimale aux clients potentiels.",
+      link: "https://www.loon-garden.fr/",
       id: "loon-garden",
       details: [
         {

@@ -5,6 +5,10 @@ import Footer from "../../components/Footer/Footer";
 import projectImage1 from "../../images/loon-garden.webp";
 import projectImage2 from "../../images/sagebym.webp";
 
+import projectImageMore1 from "../../images/bars.jpg";
+import projectImageMore2 from "../../images/logo.jpeg";
+import projectImageMore3 from "../../images/set.jpeg";
+
 const ProjectDetail = () => {
   const { projectName } = useParams();
 
@@ -16,8 +20,16 @@ const ProjectDetail = () => {
       description_2:
         "À partir de la plateforme Squarespace, j'ai développé le site web du restaurant. Il présente des images attractives de plats, des informations sur les heures d'ouverture, les réservations, les événements spéciaux, et plus encore. La mise en page du site a été optimisée pour les appareils mobiles, assurant ainsi une accessibilité optimale aux clients potentiels.",
       id: "loon-garden",
-      details: [{ label: "Squarespace design & developpement", value: "" }],
+      details: [
+        {
+          label: "Identité visuelle",
+          value: "Squarespace",
+        },
+      ],
       image: projectImage1,
+      image_1: projectImageMore1,
+      image_2: projectImageMore2,
+      image_3: projectImageMore3,
     },
     {
       name: "Sage by M",
@@ -26,8 +38,11 @@ const ProjectDetail = () => {
         "Grâce à la plateforme Squarespace, j'ai développé une boutique en ligne. Le site Web propose des vêtements, accessoires, des informations sur les envois et retour, des options de commande, des promotions spéciales et d'une newsletter. La présentation du site Web a été optimisée pour offrir une expérience fluide sur les appareils mobiles, garantissant que les clients potentiels peuvent y accéder facilement.",
       link: "https://www.sagebym.store/",
       id: "sagebym",
-      details: [{ label: "Squarespace design & developpement", value: "" }],
+      details: [{ label: "Squarespace", value: "" }],
       image: projectImage2,
+      image_1: "",
+      image_2: "",
+      image_3: "",
     },
     {
       name: "Projet 3",
@@ -137,6 +152,19 @@ const ProjectDetail = () => {
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               {project.link}
             </a>
+          </div>
+          <div className="section">
+            <div className="block-1">
+              {project.image_1 && <img src={project.image_1} alt="Projet" />}
+            </div>
+            <div className="block-2">
+              <div className="image-1">
+                {project.image_2 && <img src={project.image_2} alt="Projet" />}
+              </div>
+              <div className="image-2">
+                {project.image_3 && <img src={project.image_3} alt="Projet" />}
+              </div>
+            </div>
           </div>
         </div>
       </div>

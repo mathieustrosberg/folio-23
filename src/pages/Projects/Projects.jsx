@@ -16,8 +16,8 @@ const projectData = [
     id: "loon-garden",
     details: [
       {
-        label: "Design identité visuelle",
-        value: "Squarespace design & development",
+        label: "Identité visuelle",
+        value: "Squarespace",
       },
     ],
     image: projectImage1,
@@ -26,7 +26,7 @@ const projectData = [
     name: "Sage by M",
     description: "Création d'une boutique en ligne.",
     id: "sagebym",
-    details: [{ label: "Squarespace design & development", value: "" }],
+    details: [{ label: "Squarespace", value: "" }],
     image: projectImage2,
   },
   {

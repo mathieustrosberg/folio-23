@@ -4,10 +4,9 @@ import Footer from "../../components/Footer/Footer";
 
 import projectImage1 from "../../images/loon-garden.webp";
 import projectImage2 from "../../images/sagebym.webp";
-
 import projectImageMore1 from "../../images/bars.jpg";
-import projectImageMore2 from "../../images/logo.jpeg";
-import projectImageMore3 from "../../images/set.jpeg";
+import projectImageMore2 from "../../images/logo.jpg";
+import projectImageMore3 from "../../images/set.jpg";
 
 const ProjectDetail = () => {
   const { projectName } = useParams();

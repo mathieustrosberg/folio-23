@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 import Footer from "../../components/Footer/Footer";
 
-import projectImage1 from "../../images/loon-garden.webp";
-import projectImage2 from "../../images/sagebym.webp";
+import projectImage1 from "../../images/loon-garden.jpg";
+import projectImage2 from "../../images/sagebym.jpg";
 import projectImage3 from "../../images/projects.webp";
 import projectImage4 from "../../images/projects.webp";
 

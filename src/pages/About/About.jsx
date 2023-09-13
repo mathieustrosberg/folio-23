@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import Experience from "../../components/Experience/Experience";
 import Diplome from "../../components/Diplome/Diplome";
 
-import profilePhoto from "../../images/me.jpeg";
+import profilePhoto from "../../images/me.jpg";
 import cityIcon from "../../assets/city.svg";
 import schoolIcon from "../../assets/school.svg";
 

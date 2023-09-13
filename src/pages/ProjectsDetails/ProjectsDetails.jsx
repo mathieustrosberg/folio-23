@@ -2,8 +2,8 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 
-import projectImage1 from "../../images/loon-garden.webp";
-import projectImage2 from "../../images/sagebym.webp";
+import projectImage1 from "../../images/loon-garden.jpg";
+import projectImage2 from "../../images/sagebym.jpg";
 import projectImageMore1 from "../../images/bars.jpg";
 import projectImageMore2 from "../../images/logo.jpg";
 import projectImageMore3 from "../../images/set.jpg";

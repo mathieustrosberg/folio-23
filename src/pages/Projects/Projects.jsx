@@ -5,8 +5,8 @@ import Footer from "../../components/Footer/Footer";
 
 import projectImage1 from "../../images/loon-garden.jpg";
 import projectImage2 from "../../images/sagebym.jpg";
-import projectImage3 from "../../images/projects.webp";
-import projectImage4 from "../../images/projects.webp";
+import projectImage3 from "../../images/password.jpg";
+import projectImage4 from "../../images/todolist.jpg";
 
 const projectData = [
   {
@@ -30,17 +30,17 @@ const projectData = [
     image: projectImage2,
   },
   {
-    name: "Projet 3",
-    description: "Description du projet 2",
-    id: "projet-3",
-    details: [{ label: "Graphic Design", value: "Art" }],
+    name: "Validateur interactif de mots de passe",
+    description: "Guide permettant la création d'un mot de passe",
+    id: "validate-password-project",
+    details: [{ label: "HTML & CSS", value: "Javascript" }],
     image: projectImage3,
   },
   {
-    name: "Projet 4",
-    description: "Description du projet 2",
-    id: "projet-4",
-    details: [{ label: "Graphic Design", value: "Art" }],
+    name: "Todo List",
+    description: "Application de liste de tâches",
+    id: "todo-list",
+    details: [{ label: "HTML & CSS", value: "Javascript" }],
     image: projectImage4,
   },
 ];

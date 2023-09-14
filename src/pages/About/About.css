@@ -96,6 +96,7 @@
 
 .email-button,
 .linkedin-button,
+.github-button,
 .cv-button {
   border: 1px solid #0000001a;
   border-radius: 8px;
@@ -113,6 +114,11 @@
 .linkedin-button:hover {
   color: var(--white);
   background-color: #58befe;
+}
+
+.github-button:hover {
+  color: var(--white);
+  background-color: #ee7271;
 }
 
 .cv-button:hover {

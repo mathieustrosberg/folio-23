@@ -4,6 +4,8 @@ import Footer from "../../components/Footer/Footer";
 
 import projectImage1 from "../../images/loon-garden.jpg";
 import projectImage2 from "../../images/sagebym.jpg";
+import projectImage3 from "../../images/password.jpg";
+import projectImage4 from "../../images/todolist.jpg";
 import projectImageMore1 from "../../images/bars.jpg";
 import projectImageMore2 from "../../images/logo.jpg";
 import projectImageMore3 from "../../images/set.jpg";
@@ -45,20 +47,30 @@ const ProjectDetail = () => {
       image_3: "",
     },
     {
-      name: "Projet 3",
-      description_1: "Description du projet 3",
-      description_2: "Description du projet 3",
-      id: "projet-3",
-      details: [{ label: "Graphic Design", value: "Art" }],
-      image: projectImage2,
+      name: "Validateur interactif de mots de passe",
+      description_1:
+        "Ce projet est un guide permettant de créer des mots de passe sécurisés en imposant certaines contraintes. Le but principal de l'application est de veiller à ce que les mots de passe créés par les utilisateurs sont robustes et difficiles à deviner.",
+      description_2: "",
+      link: "A venir...",
+      id: "validate-password-project",
+      details: [{ label: "HTML & CSS", value: "Javascript" }],
+      image: projectImage3,
+      image_1: "",
+      image_2: "",
+      image_3: "",
     },
     {
-      name: "Projet 4",
-      description_1: "Description du projet 4",
-      description_2: "Description du projet 4",
-      id: "projet-4",
-      details: [{ label: "Graphic Design", value: "Art" }],
-      image: projectImage2,
+      name: "Todo List",
+      description_1:
+        "L'objectif de ce projet est de créer une application de liste de tâches qui permet à l'utilisateur d'ajouter, de supprimer et de marquer les tâches à accomplir. Les données seront stockées localement sur l'ordinateur de l'utilisateur à l'aide du Local Storage.",
+      description_2: "",
+      link: "A venir...",
+      id: "todo-list",
+      details: [{ label: "HTML & CSS", value: "Javascript" }],
+      image: projectImage4,
+      image_1: "",
+      image_2: "",
+      image_3: "",
     },
   ];
 

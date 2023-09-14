@@ -80,6 +80,13 @@ const About = () => {
                 Mon profil LinkedIn
               </a>
               <a
+                href="https://github.com/mathieustrosberg"
+                target="_blank"
+                className="github-button"
+              >
+                Mon profil Github
+              </a>
+              <a
                 href="public/MATHIEU_STROSBERG_CV.pdf"
                 download="MATHIEU_STROSBERG_CV.pdf"
                 className="cv-button"

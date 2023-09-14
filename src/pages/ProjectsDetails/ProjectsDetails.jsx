@@ -62,7 +62,7 @@ const ProjectDetail = () => {
     {
       name: "Todo List",
       description_1:
-        "L'objectif de ce projet est de créer une application de liste de tâches qui permet à l'utilisateur d'ajouter, de supprimer et de marquer les tâches à accomplir. Les données seront stockées localement sur l'ordinateur de l'utilisateur à l'aide du Local Storage.",
+        "L'objectif de ce projet est de créer une application de liste de tâches qui permet à l'utilisateur d'ajouter, de supprimer et de marquer les tâches à accomplir. Les données seront stockées localement à l'aide du Local Storage.",
       description_2: "",
       link: "A venir...",
       id: "todo-list",

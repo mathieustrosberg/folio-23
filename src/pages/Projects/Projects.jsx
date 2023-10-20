@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 
 import projectImage1 from "../../images/loon-garden.jpg";
 import projectImage2 from "../../images/sagebym.jpg";
-import projectImage3 from "../../images/password.jpg";
+import projectImage3 from "../../images/imc.jpg";
 import projectImage4 from "../../images/todolist.jpg";
 
 const projectData = [
@@ -30,9 +30,10 @@ const projectData = [
     image: projectImage2,
   },
   {
-    name: "Validateur interactif de mots de passe",
-    description: "Guide permettant la création d'un mot de passe",
-    id: "validate-password-project",
+    name: "Application Calcul d'IMC",
+    description:
+      "Application permettant de calculer leur indice de masse corporelle (IMC).",
+    id: "app-icm",
     details: [{ label: "HTML & CSS", value: "Javascript" }],
     image: projectImage3,
   },

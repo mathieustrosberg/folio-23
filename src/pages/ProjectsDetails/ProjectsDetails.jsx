@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 
 import projectImage1 from "../../images/loon-garden.jpg";
 import projectImage2 from "../../images/sagebym.jpg";
-import projectImage3 from "../../images/password.jpg";
+import projectImage3 from "../../images/imc.jpg";
 import projectImage4 from "../../images/todolist.jpg";
 import projectImageMore1 from "../../images/bars.jpg";
 import projectImageMore2 from "../../images/logo.jpg";
@@ -47,12 +47,12 @@ const ProjectDetail = () => {
       image_3: "",
     },
     {
-      name: "Validateur interactif de mots de passe",
+      name: "Application Calcul d'IMC",
       description_1:
-        "Ce projet est un guide permettant de créer des mots de passe sécurisés en imposant certaines contraintes. Le but principal de l'application est de veiller à ce que les mots de passe créés par les utilisateurs sont robustes et difficiles à deviner.",
+        "Ce projet a pour objectif de développer une application qui permet aux utilisateurs de calculer leur indice de masse corporelle (IMC).",
       description_2: "",
-      link: "A venir...",
-      id: "validate-password-project",
+      link: "https://my-icm-app.netlify.app",
+      id: "app-icm",
       details: [{ label: "HTML & CSS", value: "Javascript" }],
       image: projectImage3,
       image_1: "",

@@ -6,7 +6,7 @@
 
 <br />
 
-Click on this link to take a look at the project : https://www.mathieustrosberg.com
+Click on this link to take a look at the project : https://folio2023-mathieustrosberg.netlify.app/
 
 <br />
 

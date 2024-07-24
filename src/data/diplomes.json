@@ -2,6 +2,11 @@
   "title_section": "Diplômes et Formations",
   "experiences": [
     {
+      "title": "RNCP 5 - Développeur Web",
+      "date": "2023",
+      "description": "Webecom - RNCP34779BC01"
+    },
+    {
       "title": "Formation Développeur web",
       "date": "2023",
       "description": "The hacking project - 1200 heures\nHTML, CSS, JavaScript, Bootstrap, Ruby on Rails, React, SQL, PostgreSQL, Github, Git"

@@ -46,17 +46,18 @@ const About = () => {
                 information et numérique, j'ai travaillé pendant 6 ans dans
                 l'industrie, notamment dans le secteur métallurgique.
                 <br />
-                Cependant, ma passion pour la créativité et le design m'a amené
-                à changer de voie. J'ai décidé de devenir graphiste, En tant
-                qu’indépendant, j'ai eu l'opportunité de collaborer avec divers
-                clients, ce qui m'a permis d'acquérir de l'expérience dans la
-                création d'identités visuelles, de supports de communication et
-                du web design.
+                Ma passion pour le numérique a été éveillée grâce à un ami qui
+                travaillait en tant que web designer. Inspiré par son parcours,
+                j'ai exploré le monde du web et découvert un fort intérêt pour
+                le graphisme. J'ai donc effectué une transition professionnelle
+                pour devenir graphiste, métier que j'ai exercé pendant trois
+                ans.
                 <br />
-                Parallèlement à mon activité de graphiste, j'ai également
-                ressenti l'envie de me familiariser avec le développement web.
-                J'ai donc suivi plusieurs formations dans ce domaine, qui m'ont
-                permis de découvrir et d'apprécier ce métier.
+                Durant cette période, à la demande de plusieurs clients, mon
+                intérêt pour le développement web s'est développer. J'ai ainsi
+                participé à plusieurs formations qui m'ont permis non seulement
+                de me familiariser avec les bases du développement web, mais
+                aussi de développer une réelle appétence pour ce domaine.
               </p>
             </div>
           </div>

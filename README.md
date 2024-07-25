@@ -12,4 +12,10 @@ Click on this link to take a look at the project : https://folio2023-mathieustro
 
 ## About this project
 
-This portfolio showcases my professional and academic journey, my projects, and all the necessary information to contact me. I used React to create a dynamic and interactive user interface and React Router to facilitate navigation between different sections of the site. Additionally, the site is fully responsive.
+This repository houses my professional and academic portfolio, showcasing my journey, projects, and providing all necessary contact information. The portfolio is built with React to offer a dynamic and interactive user interface, while React Router is used to seamlessly navigate between different sections of the site. The site is designed to be fully responsive, ensuring an optimal viewing experience across various devices.
+
+Technologies Used:
+
+React
+React Router
+CSS

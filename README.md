@@ -12,4 +12,4 @@ Click on this link to take a look at the project : https://folio2023-mathieustro
 
 ## About this project
 
-The Portfolio Project is a **front-end** project made in 2023 with **React**.
+This portfolio showcases my professional and academic journey, my projects, and all the necessary information to contact me. I used React to create a dynamic and interactive user interface and React Router to facilitate navigation between different sections of the site. Additionally, the site is fully responsive.

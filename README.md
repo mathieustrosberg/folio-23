@@ -16,6 +16,6 @@ This repository houses my professional and academic portfolio, showcasing my jou
 
 Technologies Used:
 
-React
-React Router
+React,
+React Router,
 CSS
